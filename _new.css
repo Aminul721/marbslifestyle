@@ -1,0 +1,1114 @@
+.top_50_banner_wrap .banner_pare {
+	max-width: 575px;
+}
+
+.top_50_banner {
+	background-position: center center;
+	background-size: cover;
+	height: auto;
+}
+.top_50_recentpost .recent_post_info span::after {
+	content: none;
+}
+.top_50_recentpost .recent_post_info span {
+	padding-left: 0px;
+}
+.top_50_recentpost .recent_post_info span a{
+	text-decoration: underline
+}
+.top_50_recentpost .recent_post_row {
+	padding-bottom: 0px;
+	margin-bottom: 24px
+}
+.top_50_recentpost .view_event_btn {
+	color: #102a66;
+}
+.top_50_recentpost .view_event_btn::after{
+	background-color: #102a66;
+}
+.top_50_recentpost .view_event_btn:hover::after{
+	background-color: #bd944e;
+}
+.top_50_recentpost .view_event_btn:hover {
+	color: #bd944e;
+}
+.top_50_recentpost .view_event {
+	padding-top: 10px;
+	padding-bottom: 26px;
+}
+.heart_shiel_box_wrap {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 16px;
+}
+.heart_shiel_box_wrap .heart_outline_box {
+	position: initial;
+	width: 16px;
+	margin-right: 18px;
+}
+.heart_shiel_box_wrap .icon_shiel::before {
+	content: none;
+}
+.heart_shiel_box_wrap .author_img_name {
+	margin-bottom: 0px;
+}
+.category_blog_wrap:hover .heart_shiel_box_wrap .icon_shiel small{
+	color: #fff;
+}
+.category_blog_wrap:hover .heart_shiel_box_wrap .icon_shiel::after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 27px;
+    bottom: 1px;
+    left: 0;
+    z-index: 1;
+    background-color: #bd944e;
+    border-radius: 0 0 11px 11px; 
+}
+.about_top50_area {
+	padding: 0 20px;
+}
+.about_top50_area .all_about_club_wrap {
+	padding-bottom: 56px;
+}
+.top_50_content_area .scrollobar_content {
+    height: 1226px;  
+}
+
+.top_50_content_area .select_filter_btn .filter_btn::after {
+	position: absolute;
+    content: '\f3d0';
+    font-family: "Ionicons";
+    right: 17px;
+    top: 15px;
+    color: #213a71;
+    font-size: 24px;
+}
+.top_50_content_area .location_filter_wrap {
+	justify-content: flex-end;
+}
+
+.top_50_content_area .categories_view_more_btn {
+	margin-top: 8px;
+}
+.top_50_content_area .catagory_article_area {
+	padding-bottom: 45px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1600px){
+	.about_top50_content {
+		padding-left: 50px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.top_50_banner {
+		background-position: center center !important;
+		background-size: cover !important;
+		height: auto !important;
+	}
+	.banner_title_info {
+		max-width: 100%;
+	}
+	.top_50_banner .banner_title_info h2 {
+		max-width: 230px;
+		padding-bottom:0px;
+	} 
+	.top_50_banner .banner_title_info {
+		padding-top: 25px;
+	}
+	.top_50_banner .banner_sun_box  {
+		top: 37px;
+	}
+	.heart_shiel_box_wrap .heart_outline_box {
+	    width: 25px;
+        margin-right: 10px;
+	}
+	.heart_shiel_box_wrap .icon_shiel {
+	    width: 26px;
+	    height: 30px;
+	     background-size: 26px auto;
+	}
+	.heart_shiel_box_wrap .icon_shiel small {
+	    font-size: 18px;
+	 }
+
+	 .heart_shiel_box_wrap {
+	    right: 17px;
+	    top: 16px;
+	}
+	.top_50_content_area .scrollobar_content .category_blog_wrap {
+	    margin-right: 0px;
+	}
+	.top_50_content_area .catagory_article_area {
+		background: #fff;
+	}  
+	.top_50_banner {
+		border-bottom: none;
+	}
+	.top_50_content_area .categories_view_more_btn {
+	    margin-top: 14px;
+	    margin-bottom: 11px;
+	}
+	.top_50_content_area .category_blog_single .sidebar_add1 {
+	    padding: 13px 20px 27px 20px;
+	}
+	.top_50_content_area .category_blog_single .padding_control_add {
+		padding: 13px 10px 0px 10px !important;
+	}
+
+	.top_50_content_area .compare_search_btn .select_filter_btn .filter_btn {
+	    justify-content: flex-start;
+	   	padding-left: 18px;
+	   	height: 55px;
+	}
+	.top_50_content_area .filter_radieo_btn_wrap .custom-radio+label {
+		justify-content: flex-start;
+	}
+	.top_50_content_area .filter_radieo_btn_wrap .radio-btn  {
+		border-top: none;
+		padding: 0px 15px 0px 18px;
+	}
+	.top_50_content_area .filter_radieo_btn_wrap h3 {
+		padding: 10px 18px 10px 18px;
+	}
+	.top_50_content_area .filter_radieo_btn_wrap .custom-radio+label strong {
+		margin-right: 6px;
+	}
+	.top_50_content_area .even_filter_check_box {
+		padding-top: 16px;
+		padding-bottom: 23px;
+	}
+	.top_50_content_area .filter_checkbox_area {
+		width: 100.3%;
+		box-shadow: none;
+	}
+	.top_50_banner_wrap .back_btn_wrap.back_btn_top {
+		top: 32px;
+	}
+	.top_50_content_area .read_more_btn {
+		font-size: 14px;
+	}
+    .top_50_banner .breadcrumbs_bg span,
+	.top_50_banner .breadcrumbs_bg a {
+		color: #fff;
+	}
+}
+@media screen and (max-width: 520px) {
+	.top_50_content_area .filter_checkbox_area {
+			width: 100.5%;
+			box-shadow: none;
+		}
+	.top_50_content_area .category_blog_detls h4 {
+	    margin-right: 60px;
+	}
+}
+
+.categroy_blog_item.heart_shiel_box_wrap .heart_outline_box:hover img {
+	opacity: 0;
+}
+.categroy_blog_item .heart_shiel_box_wrap .heart_outline_box:hover {
+	background-image: url(assets/images/img/heart_hover.svg);
+	background-repeat: no-repeat;
+}
+
+
+
+
+/*---------AIS Review-Detail-Page---------*/
+.reviews_banner {}
+.reviews_banner .banner_wrap {
+    padding: 25px 0 54px 0;
+}
+.reviews_banner .breadcrumbs_wrap { padding-bottom: 52px; }
+.review_choic_box {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.review_choic_box .trend_topic_icon {
+	width: 119px;
+	height: 119px;
+	position: static;
+}
+.review_choice_text {
+	width: auto;
+	height: 40px;
+	background-color: #BD944E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	margin-left: -7px;
+	padding: 0 16px 0 17px;
+}
+.review_choice_text span {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+.reviews_banner .events_list_titel h3 {
+	padding-bottom: 5px;
+}
+
+@media screen and (max-width: 991px) {
+	.reviews_banner .banner_wrap {
+	    padding: 25px 0 0px 0;
+	}
+	.reviews_banner .banner_box { padding-bottom: 34px; }
+	.reviews_banner .breadcrumbs_wrap {
+	    padding-bottom: 33px;
+	}
+	.reviews_banner { height: auto; }
+	.pos_static_mb {
+		width: auto !important;
+		position: relative;
+		height: auto !important;
+		top: initial!important;
+		left: initial!important;
+		right: initial!important;
+		z-index: initial!important;
+		min-height: initial!important;
+		margin: 0 -20px !important;
+	}
+	.review_choic_box .trend_topic_icon {
+		width: 139px;
+		height: 139px;
+		position: static;
+	}
+	.review_choice_text span {
+	    font-size: 16px;
+	    line-height: 1px;
+	}
+	.pos_static_mb .events_list_titel {
+		width: 100%;
+		height: 45px;
+		background-color: #102A66;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 20px;
+	}
+	.pos_static_mb .recent_post_title h3 {
+		font-size: 22px;
+	    line-height: 1;
+		padding: 0
+	}
+	.pos_static_mb .recent_post_title h3::before { display: none; }
+	.hamburger_menu_box {
+		cursor: pointer;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.hamburger_menu {
+		display: block;
+		width: 32px;
+		height: 2px;
+		border-radius: 3px;
+		background-color: #fff;
+		transition: all 0.4s ease;
+		position: relative;
+		cursor: pointer;
+	}
+	.hamburger_menu::before,
+	.hamburger_menu::after {
+		content: '';
+		position: absolute;
+		display: block;
+	    width: 100%;
+	    height: 2px;
+	    border-radius: 3px;
+	    background-color: #fff;
+	    transition: all 0.4s ease;
+	    cursor: pointer;
+	}
+	.hamburger_menu::before { top: 9px; }
+	.hamburger_menu::after { bottom: 9px; }
+	.open_even .hamburger_menu {
+		transform: rotate(45deg);
+	}
+	.open_even .hamburger_menu::before {
+		display: none;
+	}
+	.open_even .hamburger_menu::after {
+		transform: rotate(-90deg);
+		bottom: 0;
+		opacity: 1;
+		visibility: visible;
+	}
+	.pos_static_mb .events_list_box {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		top: 100%;
+		left: 0;
+		z-index: 3;
+		display: none;
+		margin-top: -1px;
+		padding: 30px 20px 46px 20px;
+	}
+	.pos_static_mb .events_list_row {
+	    padding-bottom: 27px
+	}
+	.pos_static_mb .events_list_row_wrap { padding-bottom: 21px; }
+	.pos_static_mb .view_event {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+/*----- review_beach_marbella_box -----*/
+.review_left_bg {
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	left: 0;
+	top: 215px;
+	z-index: -1;
+	background-image: url('assets/images/review_left_bg.svg');
+	background-size: auto 500px;
+	background-repeat: no-repeat;
+}
+.review_beach_marbella_wrap { padding: 34px  0 32px 0; }
+.review_beach_marbella_box { padding-bottom: 7px; }
+.review_beach_marbella_box .categroy_blog_info {
+    padding: 23px 12px 20px 0px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.review_beach_marbella_box .banner_sun_box {
+	width: 44px;
+    height: 44px;
+    border: 1px solid #102A66;
+	border-radius: 8px;
+	margin-bottom: 0;
+}
+.review_beach_marbella_box .banner_sun_box img {
+    width: 28px !important;
+}
+.review_beach_marbella_box .category_blog_detls {
+    padding-left: 63px;
+}
+
+
+.review_beach_marbella_box .heart_shiel_box_wrap {
+	position: static;
+}
+.review_beach_marbella_box .heart_outline_box {
+	position: relative;
+	top: initial;
+	right: initial;
+	width: 25px;
+    margin-right: 0;
+    height: 100%;
+    transition: all 0.3s;
+}
+.review_beach_marbella_box .hover_heart,
+.review_beach_marbella_box .normal_heart {}
+.review_beach_marbella_box .hover_heart {
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	margin: auto;
+}
+.review_beach_marbella_box .heart_outline_box:hover .hover_heart {
+	opacity: 1;
+	visibility: visible;
+}
+.review_beach_marbella_box .heart_outline_box:hover .normal_heart {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.review_location_rating_box {}
+.review_location {
+	width: auto;
+	height: 40px;
+	background-color: #BD944E;
+	border-radius: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+	transition: all 0.3s;
+	cursor: pointer;
+	padding: 5px 14px;
+}
+.review_location_btn span {
+	background-image: url('assets/images/review_map_pin.svg');
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: 12px auto;
+	background-position: left top;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 1px 0 1px 25px;
+}
+.review_location:hover {
+	background-color: #102A66;
+	color: #fff;
+}
+.review_location_rating_box .rating_box {
+	width: auto;
+	height: 40px;
+	border: 1px solid #102A66;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 4px 11px;
+	margin-left: 15px;
+}
+.rating_euro {
+	display: flex;
+	align-items: center;
+	position:relative; 
+	margin:0;
+}
+.rating_euro li {
+	padding-right: 4px;
+}
+.rating_euro li:last-child { padding-right: 0; }
+.rating_euro li .click_euro { cursor: pointer; }
+.euro_icon {
+  position: relative;
+}
+.euro_icon > img {
+	opacity: 0.4;
+}
+.rating_euro li.on .euro_icon {
+  position: relative;
+}
+.rating_euro li.on .euro_icon > img {
+	opacity: 1;
+}
+
+.tooltip_box {
+	position: relative;
+	padding-left: 10px;
+}
+.tooltip_box .icon {
+    position: relative;
+}
+.hover_icon {
+	position: absolute;
+    width: auto;
+    height: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.tooltip_box .content {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    top: 20px;
+    left: -50px;
+    z-index: 2;
+    background-color: #102A66;
+    border-radius: 4px;
+    padding: 10px 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.tooltip_box .content::after {
+    content: " ";
+    position: absolute;
+    top: -6px;
+    right: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border: 6px solid transparent;
+    border-top-color: #1A205C;
+    border-bottom: none;
+    transform: scaleY(-1);
+}
+.tooltip_box .tooltip_rating_inner span {
+    font-weight: 300;
+	font-size: 10px;
+	line-height: 12px;
+	color: #FFFFFF;
+    display: inline-block;
+}
+
+.tooltip_box:hover .hover_icon,
+.tooltip_box:hover .content {
+	opacity: 1;
+    visibility: visible;
+}
+
+.review_beach_marbella_info {
+	max-width: 980px;
+	padding-bottom: 25px;
+}
+.review_beach_marbella_info h2 {
+	/* font-family: 'sentinelregular'; */
+	font-family: 'Sentinel';
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 44px;
+	color: #102A66;
+	padding-bottom: 20px;
+}
+.review_beach_marbella_info p {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	color: #102A66;
+	padding-bottom: 20px;
+}
+.review_read_more {}
+.review_read_more_btn {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	color: #102A66;
+	position: relative;
+
+	background-image: url('assets/images/review-right-arrow.svg');
+	background-repeat: no-repeat;
+	background-size: 6px auto;
+	background-position: right top 6px;
+	display: inline-block;
+	padding-right: 14px;
+}
+.review_read_more_btn::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	max-width: 76px;
+	height: 1px;
+	left: 0;
+	bottom: 3px;
+	z-index: 1;
+	background-color: #102A66;
+}
+
+.review_detail_box {}
+.review_detail_info_box { padding-bottom: 25px; }
+.review_detail_info_box h5 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #102A66;
+	padding-bottom: 16px;
+}
+.review_detail_info_box .star_box_wrap span {
+    font-weight: 300;
+	font-size: 32px;
+	line-height: 32px;
+	color: #102A66;
+}
+.review_detail_info_box .feedback_star .star_box_inner { height: auto; }
+.review_detail_info_box .feedback_star .star_box .fa {
+    color: #BD944E;
+    font-size: 36px;
+}
+.review_detail_info_box .star_box_hover {
+    width: 135px;
+}
+.review_detail_info_box .star_box {
+    padding-right: 16px;
+}
+.review_detail_list_wrap {}
+.review_detail_list_box { padding-bottom: 45px; }
+.review_detail_list {
+	width: 50.77%;
+	padding-right: 20px;
+}
+.review_detail_list_bg {
+	border: 1px solid #DBE4E7;
+	border-radius: 10px;
+}
+.review_detail_list_row {
+	min-height: 45px;
+}
+.review_detail_list_row:first-child {
+	border-radius: 10px 10px 0 0;
+}
+.review_detail_list_row:last-child {
+	border-radius: 0 0 10px 10px;
+}
+.review_detail_list_row:nth-child(odd) {
+	background-color: #fff;
+}
+.review_detail_list_row:nth-child(even) {
+	background-color: #F7F9F9;
+}
+.review_detail_food {
+	width: 52.04%;
+	border-right: 2px solid #fff;
+	position: relative;
+	display: flex;
+    align-items: center;
+	padding: 0 36px 0 20px;
+}
+.review_food_img {}
+.review_food_img img {
+	width: auto !important;
+}
+.review_detail_food span {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 40px;
+	color: #102A66;
+	display: inline-block;
+	padding-left: 25px;
+}
+.review_detail_food .tooltip_box {
+	position: absolute;
+    right: 19px;
+    top: 0;
+    width: auto;
+    height: 100%;
+    bottom: 0;
+    margin: auto 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.review_detail_food .tooltip_box .content {
+    top: 33px;
+    left: -60px;
+}
+.review_detail_food .tooltip_box .tooltip_rating_inner span { padding: 0; }
+
+.review_detail_food_rating {
+	width: 47.97%;
+	display: flex;
+    align-items: center;
+	padding-left: 45px;
+}
+.review_detail_food_rating .feedback_star .star_box_inner { height: auto; }
+.review_detail_food_rating .feedback_star .star_box .fa {
+    color: #BD944E;
+    font-size: 24px;
+}
+.review_detail_food_rating .star_box {
+    padding-right: 11px;
+}
+.review_detail_food_rating .star_box_wrap span {}
+
+.address_detail_box {
+    /*width: 37.2%;*/
+    width: 49.22%;
+}
+.address_detail_info {}
+.address_detail_info h5 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #102A66;
+	padding-bottom: 11px;
+}
+.address_detail_info span {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #102A66;
+	display: inline-block;
+	background-image: url('assets/images/eva_pin.svg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 11px auto;
+	padding-left: 18px;
+	margin-bottom: 19px;
+}
+.address_detail_info span a {
+	font-weight: 400;
+	color: #102A66;
+	position: relative;
+}
+.address_detail_info span a::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: 1px;
+	z-index: 1;
+	background-color: #102A66;
+}
+.address_detail_info .marbs_btn_wrap {
+	width: 174px;
+	height: 41px;
+	padding: 0;
+	margin-bottom: 22px;
+}
+.address_detail_info .mail_btn span {
+	color: #fff;
+	background-image: none;
+	margin: 0;
+}
+.address_detail_info .mail_btn:hover span {
+	color: #bd944e;
+}
+.address_detail_map {
+	width: 100%;
+	height: auto;
+	border: 1px solid #DBE4E7;
+	border-radius: 10px;
+}
+.address_detail_map #map {
+	width: 100%;
+	height: 170px;
+	border-radius: 10px;
+}
+
+.address_detail_box .find_address_info_wrap {
+    margin-left: 15px;
+    padding: 21px 20px 18px 32px;
+}
+.address_detail_box .find_address_info_item {
+    width: 41.3%;
+}
+.address_detail_box .marbs_btn_wrap {
+    width: 100%;
+    padding: 0px;
+}
+.address_detail_box .map_view_box {
+    width: 50%;
+    padding: 0px 8px 0px 12px;
+}
+.address_detail_box .find_address_info_box .blog_mb_map {
+    padding-bottom: 0px;
+    padding-top: 6px;
+}
+
+.share_review_box {
+	max-width: 338px;
+}
+.share_review_box h6 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #102A66;
+	padding-bottom: 15px;
+}
+.share_review_box ul {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.share_review_box ul li {
+	margin-bottom: 9px;
+}
+.share_review_box ul li:nth-child(odd) {
+	width: 50%;
+}
+.share_review_box ul li:nth-child(even) {
+	width: 50%;
+}
+.share_review_box ul li a {
+	display: inline-block;
+}
+.share_review_box ul li a small {
+	display: flex;
+	align-items: center;
+}
+.share_review_box ul li img {}
+.share_review_box ul li span {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #102A66;
+	position: relative;
+	margin-left: 11px;
+}
+.share_review_box ul li span::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: 5px;
+	z-index: 1;
+	background-color: #102A66;
+}
+
+@media screen and (max-width: 1440px) {
+	.review_detail_list_row {
+	    min-height: 48px;
+	}
+}
+@media screen and (max-width: 1366px) {
+	.review_detail_food {
+	    padding: 0 36px 0 15px;
+	}
+	.review_detail_food span {
+	    padding-left: 10px;
+	}
+	.review_detail_food_rating {
+	    padding-left: 15px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.review_left_bg { display: none; }
+	.review_beach_marbella_wrap {
+	    padding: 14px 0 48px 0;
+	}
+	.review_beach_marbella_box .category_blog_detls {
+	    padding-left: 60px;
+	}
+	.review_beach_marbella_box {
+	    padding-bottom: 12px;
+	}
+	.review_detail_list_box {
+	    padding-bottom: 30px;
+	}
+	.review_beach_marbella_box .categroy_blog_info {
+	    padding: 23px 12px 20px 0px;
+	    width: 100%;
+	    position: relative;
+	}
+	.review_beach_marbella_box .banner_sun_box {
+	    display: block;
+	    left: 0;
+	    top: 0;
+	    bottom: 0;
+	    margin: auto 0;
+	}
+	.review_beach_marbella_info {
+	    max-width: 100%;
+	    padding-bottom: 23px;
+	}
+	.rating_box {
+	    width: 167px;
+	    margin-left: 0;
+	    margin-bottom: 20px;
+	}
+	.review_read_more { margin-bottom: 20px }
+
+	.review_detail_list {
+	    width: 100%;
+	    padding-right: 0px;
+	    padding-bottom: 26px;
+	}
+	.review_detail_food {
+		width: 87.04%;
+	    padding: 0 36px 0 18px;
+	}
+	.review_detail_food span {
+	    padding-left: 6px;
+	}
+
+	.address_detail_box {
+	    width: 100%;
+	}
+	.review_detail_food_rating {
+	    padding-left: 13px;
+	}
+	.address_detail_info .marbs_btn_wrap {
+	    width: 100%;
+	    margin-bottom: 22px;
+	}
+	.share_review_box { padding-bottom: 18px; }
+	.review_detail_box .sidebar_add_box { margin: 0 }
+	.review_detail_box .sidebar_add_box .review_add2 { padding: 0 }
+
+
+	.address_detail_box .find_address_info_wrap {
+	    margin-left: 0;
+	    padding: 26px 17px 24px 17px;
+	}
+	.address_detail_box .find_address_info_item {
+	    width: 100%;
+	}
+	.address_detail_box .marbs_btn_wrap {
+	    width: 100%;
+	    padding: 0px;
+	}
+	.address_detail_box .map_view_box {
+	    width: 100%;
+	    padding: 0;
+	}
+	.address_detail_box .find_contact_style_common P {
+	    padding-bottom: 3px;
+	}
+	.address_detail_box .find_address_info_box .blog_mb_map {
+	    padding-bottom: 24px;
+	    padding-top: 25px;
+	}
+}
+
+
+/*-----more_like_area-----*/
+.more_like_area {
+	background-image: none;
+	/*background-color: #F7F9F9;*/
+}
+/*.more_like_area::after, 
+.more_like_area::before {
+    background-image: none;
+    background-color: #F7F9F9;
+}*/
+.more_like_area .trend_topic_wrap {
+    padding: 75px 0 80px 0;
+}
+.more_like_area .blog_common_style h3 {
+    font-weight: 300;
+	font-size: 32px;
+	line-height: 44px;
+	color: #102A66;
+    padding-bottom: 6px;
+}
+.more_like_area .trend_topic_slider {
+    padding-bottom: 60px;
+}
+.more_like_bg {
+	background-color: #009786;
+	border-color: #009786;
+}
+.more_like_area .trend_topic_info span {
+    padding-bottom: 0px;
+}
+.more_like_area .author_img_name {
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+}
+.more_like_area .feedback_star::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	max-width: 65px;
+	height: 1px;
+	left: 0;
+	bottom: -15px;
+	z-index: 1;
+	background-color: #BD944E;
+}
+
+@media screen and (max-width: 991px) {
+	.more_like_area .trend_topic_wrap {
+	    padding: 35px 0 32px 0;
+	}
+	.more_like_area .trend_topic_item_row {
+	    padding: 21px 10px 5px 10px;
+	}
+	.more_like_area .trend_topic_info_wrap {
+	    padding-top: 20px;
+	}
+	.more_like_area .trend_topic_slider {
+	    padding-bottom: 0px;
+	}
+	.more_like_area.trend_topic_area .owl-carousel .owl-stage { padding-left: 0 !important;  }
+	.more_like_area .owl-carousel .owl-nav.disabled, 
+	.more_like_area .owl-carousel .owl-dots.disabled {
+	    display: none;
+	}
+}
+
+/*-----nikki_beach_area-----*/
+.nikki_beach_area {}
+.nikki_beach_area {
+    background-color: #F7F9F9;
+    position: relative;
+}
+.nikki_beach_area::after, 
+.nikki_beach_area::before {
+    content: '';
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #F7F9F9;
+}
+.nikki_beach_area::after {
+    left: inherit;
+    right: 100%;
+}
+.nikki_beach_area::before {
+    right: inherit;
+    left: 100%;
+}
+.nikki_beach_area .find_us_info { padding-bottom: 30px; }
+.nikki_beach_area .find_us_info h2 {
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 44px;
+	color: #102A66;
+}
+.nikki_beach_area .result_slider_box {
+    padding: 76px 0 90px 0;
+}
+
+@media screen and (max-width: 991px) {
+	.nikki_beach_area {
+	    width: auto;
+	    padding: 0;
+	    margin: 0 -20px;
+	}
+	.nikki_beach_area .result_slider_box {
+	    padding: 56px 0 62px 0;
+	}
+	.nikki_beach_area .find_us_info {
+	    padding: 0 20px 3px 20px;
+	}
+}
+
+.sidebar_review_detail .sidebar_right_box {
+    padding-top: 312px;
+}
+.sidebar_review_detail .sidebar_add_box {
+    background-color: transparent;
+}
+.sidebar_review_detail .sidebar_add1.sidbar_add_width {
+    padding-right: 30px;
+    padding-left: 50px;
+}
+.sidebar_review_detail .sidebar_right_overview1 .sidebar_add1 img {
+    max-height: 100%;
+	height: 642px;
+}
+.sidebar_review_detail .recent_post_wrap {
+    background-color: transparent;
+    padding: 16px 10px 5px 48px;
+}
+.sidebar_review_detail .sidebar_right_overview1 .recent_post_title {
+    padding-bottom: 33px;
+}
+.sidebar_review_detail .sidebar_right_overview1 .recent_post_info span {
+	padding-left: 16px;
+}
+.sidebar_review_detail .sidebar_right_overview1 .recent_post_info span::after { display: block; }
+.sidebar_review_detail .sidebar_right_overview1 .recent_post_info span::before {
+    display: none;
+}
+
+.sidebar_review_detail .sidebar_right_overview1 .review_add2 {
+    padding-left: 48px;
+}
+.sidebar_review_detail .sidebar_right_overview1 .review_add2 img {
+    max-height: 100%;
+    height: 252px;
+}
+
+@media screen and (max-width: 991px) {}
